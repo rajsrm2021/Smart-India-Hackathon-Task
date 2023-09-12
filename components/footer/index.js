@@ -50,7 +50,7 @@ const Footer = () => {
         </div>
         <div className=" flex  justify-center md:justify-start items-center gap-6 w-full">
           <SiGmail className="h-8 w-8" />
-          <span>maverricks@gmail.com</span>
+          <span><a href="mailto:mavericks@gmail.com">mavericks@gmail.com</a></span>
         </div>
         <div className=" flex  justify-center md:justify-start items-center gap-6 w-full">
           <FaLocationDot className="h-8 w-8" />
