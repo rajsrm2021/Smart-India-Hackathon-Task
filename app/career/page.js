@@ -1,11 +1,11 @@
 import Image from "next/image";
-import logo from "@/public/assets/logo1.png";
+import logo from "@/public/assets/footer2.png";
 import Link from "next/link";
 import { GrNext } from "react-icons/gr";
 const CareerPage = () => {
   return (
     <>
-      <div className="container flex flex-col md:flex-row-reverse m-10 mx-auto p-10 border-4 border-black justify-between gap-y-7 rounded-3xl ">
+      <div className="container flex flex-col md:flex-row-reverse m-10 mx-auto p-10 border-4 bg-white border-black justify-between gap-y-7 rounded-3xl ">
         <div>
           <Image src={logo} width={400} />
         </div>
