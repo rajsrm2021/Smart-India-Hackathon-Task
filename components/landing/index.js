@@ -11,7 +11,7 @@ import Image from "next/image";
 
 const Landing = () => {
   return (
-    <div className="bg-[#fffcf8] flex flex-row justify-center w-full">
+    <div className="bg-[#fffcf8] flex flex-row justify-center w-full rounded-2xl">
       <div className="bg-[#fffcf8] overflow-hidden w-[1440px] h-[2400px] relative">
         <div className="absolute w-[1407px]  left-[6px]">
           <div className="absolute w-[72px] h-[72px] top-[1275px] left-[1260px] bg-[#fffcf8] rounded-[36px] border-[3px] border-solid border-black">
@@ -96,7 +96,7 @@ const Landing = () => {
                     alt="Vector"
                     src="vector-2.svg"
                   />
-                </div>
+                </div>  
               </div>
             </div>
             <div className="left-[981px] absolute w-[420px] h-[405px] top-[848px] bg-[#fffcf8] rounded-[22px] overflow-hidden border border-solid border-black">
@@ -128,7 +128,7 @@ const Landing = () => {
                 </div>
               </div>
             </div>
-            <div className="absolute w-[1263px] h-[587px] top-[1668px] left-[19px]">
+            <div className="absolute w-[1263px] h-[587px] top-[1668px]  left-[19px]">
               <div className="relative w-[1265px] h-[587px]">
                 <div className="absolute w-[1263px] h-[220px] top-[367px] left-0">
                   <div className="w-[1265px] h-[220px]">
