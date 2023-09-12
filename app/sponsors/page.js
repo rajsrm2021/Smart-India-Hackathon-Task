@@ -2,7 +2,6 @@ import Image from "next/image";
 import i1 from "@/public/assets/solid.png";
 import i2 from "@/public/assets/proj.png";
 import i3 from "@/public/assets/indianoil.png";
-import i4 from "@/public/assets/ansys.png";
 const SponsorPage = () => {
   const data = [
     {
